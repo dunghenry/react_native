@@ -7,6 +7,4 @@ import App from './App';
 import MainScreen from './screens/MainScreen';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => () => (
-  <MainScreen msg="Hello world!" />
-));
+AppRegistry.registerComponent(appName, () => App);
